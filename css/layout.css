@@ -36,12 +36,6 @@
 
 }
 
-#shadow2::after {
-    content: "";
-    clear: both;
-    display: table;
-
-}
 
 .shadow3{
   float: left;
