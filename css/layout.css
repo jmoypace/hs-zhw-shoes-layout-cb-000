@@ -54,6 +54,5 @@
 .border_right{
   float: left;
   width: 32%;
- padding: 0;
- margin: 0;
+ width: 100%;
 }
