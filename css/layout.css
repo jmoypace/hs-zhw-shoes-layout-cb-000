@@ -60,3 +60,11 @@
     padding: 15px;
       margin: 1%;
 }
+.first{
+  margin-left: 0%;
+}
+.border_right{
+  float: left;
+  width: 32%;
+  background: #ccc;
+}
