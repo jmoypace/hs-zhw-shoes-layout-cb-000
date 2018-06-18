@@ -30,8 +30,9 @@
 
 }
 .shadow1 {
-  width: 660px;
   float: left;
+  width: 66%;
+  background: #ccc;
 
 }
 
