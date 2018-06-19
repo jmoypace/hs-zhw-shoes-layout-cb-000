@@ -1,5 +1,3 @@
-/********** Fixes **********/
-
 * {
   margin:0;
   padding:0;
@@ -9,38 +7,31 @@
   -moz-box-sizing: border-box;
 }
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
-}
-
-
 /* Posititoning Classes */
 
-.shadow1 {
-  float: left;
-  width: 66%;
+  .row {
+    clear: both;
+    margin-bottom: 2%;
+  }
 
+  .row:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
 
-}
+  [class*="col-"] {
+    float: left;
+    margin-left: 2%;
+  }
 
-.shadow3{
-  float: left;
-  width: 31.5%;
- margin:1%;
- margin-top: 0px;
-}
+  [class*="col-"]:first-child {
+    margin-left: 0;
+  }
 
-.first{
-  margin-left: 0%;
-}
-.border_right{
-  float: left;
-  width: 32%;
-
-
-}
+  .col-4 { width: 32%; }
+  .col-8 { width: 66%; }
+© 2018 GitHub, Inc.
